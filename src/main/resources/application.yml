@@ -19,7 +19,7 @@ spring:
 
 
 server:
-  port: 9095
+  port: 5000
 
 eureka:
   client:
