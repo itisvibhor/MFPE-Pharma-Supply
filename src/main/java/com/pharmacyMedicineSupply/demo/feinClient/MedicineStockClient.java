@@ -10,7 +10,7 @@ import com.pharmacyMedicineSupply.demo.vo.MedicineStockVO;
 
 //using feignclient for medicine stock service
 //@FeignClient("MEDICINESTOCK-SERVICE")
-@FeignClient(url="Stockservice-env.eba-wpcxgpxz.us-west-1.elasticbeanstalk.com", name = "MEDICINESTOCK-SERVICE")
+@FeignClient(url="Stockservice-env.eba-wpcxgpxz.us-west-1.elasticbeanstalk.com/MedicineStockInformation", name = "MEDICINESTOCK-SERVICE")
 public interface MedicineStockClient {
 	
 	//returns the specific stock count of medicine searched
